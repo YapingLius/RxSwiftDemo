@@ -6,7 +6,9 @@ target 'Demo' do
   use_frameworks!
 
   # Pods for Demo
-
+  
+ pod  'RxSwift' ,'~> 4.0'
+ pod  'RxCocoa','~> 4.0'
   target 'DemoTests' do
     inherit! :search_paths
     # Pods for testing
@@ -18,3 +20,4 @@ target 'Demo' do
   end
 
 end
+
